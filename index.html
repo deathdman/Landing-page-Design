@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Landing Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <script src='js/main.js'></script>
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="img/logo.png" class="logo"></a>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Novedades</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2 class="titulo">Nintendo Switch</h2>
+                <p class="texto">Nintendo Switch se transforma para adaptarse a tu situación y 
+                    te permite jugar a los títulos que quieras aunque no tengas mucho tiempo. 
+                    Es una nueva era en la que no tienes que adaptar tu vida a los videojuegos: 
+                    ahora es la consola la que se adapta a tu vida.</p>
+                <a href="#">Ver Más</a>    
+            </div>
+            <div class="imgBox">
+                <img src="img/switch.png" class="switch">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="img/switchMando.png" class="mandoSwitch" onclick="changeConsole('img/switch.png','#fe0016','Nintendo Switch')"></li>
+            <li><img src="img/ps4Mando.png" class="mandoPS" onclick="changeConsole('img/ps4.png','#0071bc', 'PlayStation 4')"></li>
+            <li><img src="img/xboxMando.png" class="mandoX" onclick="changeConsole('img/xbox.png', '#9bc848', 'Xbox One')"></li>
+        </ul>
+    </section>
+</body>
+</html>
